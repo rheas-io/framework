@@ -1,0 +1,29 @@
+{
+  "name": "@laress/framework",
+  "version": "0.0.1",
+  "description": "A simple NodeJS framework for developers using Typescript and ES6 classes.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laress-io/framework.git"
+  },
+  "keywords": [
+    "laress",
+    "express",
+    "framework",
+    "nodejs",
+    "laravel",
+    "ES6",
+    "ES5",
+    "typescript",
+    "javascript"
+  ],
+  "dependencies": {
+    "@laress/core": "^1.0.0"
+  },
+  "author": "Kalesh Kaladharan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laress-io/framework/issues"
+  },
+  "homepage": "https://github.com/laress-io/framework#readme"
+}
