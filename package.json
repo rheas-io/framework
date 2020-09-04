@@ -29,8 +29,7 @@
     "@rheas/files": "^0.0.1",
     "@rheas/routing": "^0.0.1",
     "@rheas/services": "^0.0.1",
-    "@rheas/support": "^0.0.1",
-    "@rheas/react-hooks": "^0.1.3"
+    "@rheas/support": "^0.0.1"
   },
   "devDependencies": {
     "@types/jest": "^26.0.13",
