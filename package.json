@@ -1,7 +1,7 @@
 {
   "name": "@rheas/framework",
   "version": "0.0.1",
-  "description": "A simple NodeJS framework for developers using Typescript and ES6 classes.",
+  "description": "A simple NodeJS framework for developers with Typescript and ES6 classes support.",
   "keywords": [
     "rheas",
     "express",
@@ -14,7 +14,22 @@
     "javascript"
   ],
   "dependencies": {
-    "@rheas/core": "^1.0.0"
+    "@rheas/core": "^0.0.1",
+    "@rheas/cli": "^0.0.1",
+    "@rheas/contracts": "^0.0.1",
+    "@rheas/container": "^0.0.1",
+    "@rheas/errors": "^0.0.1",
+    "@rheas/files": "^0.0.1",
+    "@rheas/routing": "^0.0.1",
+    "@rheas/services": "^0.0.1",
+    "@rheas/support": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "@types/node": "^14.6.4",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
   },
   "author": "Kalesh Kaladharan",
   "license": "MIT",
