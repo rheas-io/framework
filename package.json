@@ -1,6 +1,6 @@
 {
   "name": "@rheas/framework",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple NodeJS framework for developers with Typescript and ES6 class support.",
   "keywords": [
     "rheas",
@@ -18,7 +18,8 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "build": "tsc && cp -rf package.json build"
+    "postinstall": "cp ./rheas $INIT_CWD",
+    "build": "tsc && cp -rf package.json build && cp -rf rheas build"
   },
   "dependencies": {
     "@rheas/core": "^0.0.1",
