@@ -1,0 +1,63 @@
+{
+  "name": "@rheas/framework",
+  "version": "0.0.6",
+  "description": "A simple NodeJS framework for developers with Typescript and ES6 class support.",
+  "keywords": [
+    "rheas",
+    "express",
+    "framework",
+    "nodejs",
+    "laravel",
+    "ES6",
+    "ES5",
+    "typescript",
+    "javascript"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "postinstall": "cp ./rheas $INIT_CWD",
+    "build": "tsc && cp -rf package.json build && cp -rf rheas build"
+  },
+  "dependencies": {
+    "@rheas/auth":"^0.0.1",
+    "@rheas/cli": "^0.0.3",
+    "@rheas/container": "^0.0.1",
+    "@rheas/contracts": "^0.0.1",
+    "@rheas/cookies": "^0.0.1",
+    "@rheas/core": "^0.0.1",
+    "@rheas/database": "^0.0.1",
+    "@rheas/errors": "^0.0.1",
+    "@rheas/files": "^0.0.1",
+    "@rheas/mail": "^0.0.1",
+    "@rheas/middlewares": "^0.0.1",
+    "@rheas/queue": "^0.0.1",
+    "@rheas/routing": "^0.0.1",
+    "@rheas/security": "^0.0.1",
+    "@rheas/services": "^0.0.1",
+    "@rheas/sessions": "^0.0.1",
+    "@rheas/support": "^0.0.1",
+    "@rheas/utils": "^0.0.1",
+    "@rheas/validation": "^0.0.1",
+    "@rheas/views": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "@types/node": "^14.6.4",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  },
+  "author": "Kalesh Kaladharan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rheas-io/framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rheas-io/framework/issues"
+  },
+  "homepage": "https://github.com/rheas-io/framework#readme"
+}
