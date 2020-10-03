@@ -22,7 +22,6 @@
     "build": "tsc && cp -rf package.json build && cp -rf rheas build"
   },
   "dependencies": {
-    "@rheas/auth":"^0.0.1",
     "@rheas/cli": "^0.0.3",
     "@rheas/container": "^0.0.1",
     "@rheas/contracts": "^0.0.1",
@@ -38,8 +37,7 @@
     "@rheas/security": "^0.0.1",
     "@rheas/services": "^0.0.1",
     "@rheas/sessions": "^0.0.1",
-    "@rheas/support": "^0.0.1",
-    "@rheas/utils": "^0.0.1",
+    "@rheas/support": "^0.0.2",
     "@rheas/validation": "^0.0.1",
     "@rheas/views": "^0.0.1"
   },
