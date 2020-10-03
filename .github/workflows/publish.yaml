@@ -11,7 +11,7 @@ jobs:
         with:
           registry-url: 'https://registry.npmjs.org'
           scope: '@rheas'
-      - run: npm install --only=dev
+      - run: npm install --ignore-scripts --only=dev
       - run: npm run build
       - name: publish
         working-directory: build
