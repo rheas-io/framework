@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
+var path = require('path');
 var Application = require('@rheas/core').Application;
 
-const app = new Application(__dirname);
+const app = new Application(path.resolve(__dirname, 'build'));
 app.bootServices();
 
 const cli = app.get('cli');

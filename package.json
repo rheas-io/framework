@@ -18,11 +18,11 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "postinstall": "cp ./rheas $INIT_CWD",
+    "postinstall": "cp ./rheas $INIT_CWD && npm run tsc",
     "build": "tsc && cp -rf package.json build && cp -rf rheas build"
   },
   "dependencies": {
-    "@rheas/cli": "^0.0.4",
+    "@rheas/cli": "^0.0.6",
     "@rheas/container": "^0.0.1",
     "@rheas/contracts": "^0.0.2",
     "@rheas/cookies": "^0.0.1",
@@ -39,9 +39,7 @@
     "@rheas/sessions": "^0.0.2",
     "@rheas/support": "^0.0.4",
     "@rheas/validation": "^0.0.2",
-    "@rheas/views": "^0.0.1"
-  },
-  "devDependencies": {
+    "@rheas/views": "^0.0.1",
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.2",
     "jest": "^26.5.0",
