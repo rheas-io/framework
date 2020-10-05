@@ -1,6 +1,0 @@
-#!/usr/bin/env node
-
-var Cli = require('@rheas/cli').Cli;
-
-// Handle the incoming cli request
-new Cli().handleRequest();
