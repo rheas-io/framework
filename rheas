@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
-var Cli = require('@rheas/cli').Cli;
+var Application = require('@rheas/core').Application;
 
-// Handle the incoming cli request
-new Cli().handleRequest();
+const app = new Application(__dirname);
+app.bootServices();
+
+const cli = app.get('cli');
+cli.handleRequest();

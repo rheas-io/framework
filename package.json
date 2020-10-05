@@ -36,9 +36,9 @@
     "@rheas/routing": "^0.0.2",
     "@rheas/security": "^0.0.1",
     "@rheas/services": "^0.0.1",
-    "@rheas/sessions": "^0.0.1",
-    "@rheas/support": "^0.0.3",
-    "@rheas/validation": "^0.0.1",
+    "@rheas/sessions": "^0.0.2",
+    "@rheas/support": "^0.0.4",
+    "@rheas/validation": "^0.0.2",
     "@rheas/views": "^0.0.1"
   },
   "devDependencies": {
