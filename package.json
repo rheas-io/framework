@@ -1,6 +1,6 @@
 {
   "name": "@rheas/framework",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A simple NodeJS framework for developers with Typescript and ES6 class support.",
   "keywords": [
     "rheas",
@@ -26,7 +26,7 @@
     "@rheas/container": "^0.0.1",
     "@rheas/contracts": "^0.0.3",
     "@rheas/cookies": "^0.0.1",
-    "@rheas/core": "^0.0.3",
+    "@rheas/core": "^0.0.4",
     "@rheas/database": "^0.0.4",
     "@rheas/errors": "^0.0.2",
     "@rheas/files": "^0.0.1",
