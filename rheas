@@ -4,6 +4,7 @@ var path = require('path');
 var Application = require('@rheas/core').Application;
 
 const app = new Application(path.resolve(__dirname, 'build'));
+app.setRunningInConsole();
 app.bootServices();
 
 const cli = app.get('cli');
