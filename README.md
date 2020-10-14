@@ -9,6 +9,8 @@
 <a href="https://www.npmjs.com/package/@rheas/framework"><img src="https://img.shields.io/npm/l/@rheas/framework" alt="License"></a>
 </p>
 
+<br>
+
 ## About Rheas
 
 Rheas is a NodeJs framework created for developing web applications faster using an elegant syntax. This project is heavily inspired from the [Laravel](https://www.laravel.com/) framework.
