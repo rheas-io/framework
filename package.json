@@ -18,7 +18,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "postinstall": "cp ./rheas $INIT_CWD && tsc",
+    "postinstall": "cp ./rheas $INIT_CWD",
     "build": "mkdir build && cp -rf index.js build && cp -rf package.json build && cp -rf rheas build"
   },
   "dependencies": {
