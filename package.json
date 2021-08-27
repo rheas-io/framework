@@ -24,10 +24,10 @@
   "dependencies": {
     "@rheas/cli": "^0.0.8",
     "@rheas/container": "^0.0.2",
-    "@rheas/contracts": "^0.0.9",
+    "@rheas/contracts": "^0.0.10",
     "@rheas/cookies": "^0.0.2",
     "@rheas/core": "^0.0.10",
-    "@rheas/database": "^0.0.4",
+    "@rheas/database": "^0.0.5",
     "@rheas/errors": "^0.0.4",
     "@rheas/files": "^0.0.1",
     "@rheas/mail": "^0.0.3",
