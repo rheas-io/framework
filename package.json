@@ -27,7 +27,7 @@
     "@rheas/contracts": "^0.0.10",
     "@rheas/cookies": "^0.0.2",
     "@rheas/core": "^0.0.10",
-    "@rheas/database": "^0.0.5",
+    "@rheas/database": "^0.0.6",
     "@rheas/errors": "^0.0.4",
     "@rheas/files": "^0.0.1",
     "@rheas/mail": "^0.0.3",
