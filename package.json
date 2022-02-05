@@ -39,7 +39,7 @@
     "@rheas/sessions": "^0.0.4",
     "@rheas/support": "^0.0.5",
     "@rheas/validation": "^0.0.2",
-    "@rheas/views": "^0.0.1",
+    "@rheas/views": "^0.0.2",
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.2",
     "jest": "^26.5.0",
