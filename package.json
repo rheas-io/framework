@@ -22,7 +22,7 @@
     "build": "mkdir build && cp -rf index.js build && cp -rf package.json build && cp -rf rheas build"
   },
   "dependencies": {
-    "@rheas/cli": "^0.0.8",
+    "@rheas/cli": "^0.0.9",
     "@rheas/container": "^0.0.2",
     "@rheas/contracts": "^0.0.10",
     "@rheas/cookies": "^0.0.2",
