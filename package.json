@@ -24,9 +24,9 @@
   "dependencies": {
     "@rheas/cli": "^0.0.9",
     "@rheas/container": "^0.0.2",
-    "@rheas/contracts": "^0.0.10",
+    "@rheas/contracts": "^0.0.11",
     "@rheas/cookies": "^0.0.2",
-    "@rheas/core": "^0.0.10",
+    "@rheas/core": "^0.0.11",
     "@rheas/database": "^0.0.7",
     "@rheas/errors": "^0.0.4",
     "@rheas/files": "^0.0.1",
